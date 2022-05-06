@@ -42,58 +42,66 @@ namespace WindowsFormsApp1
             // 
             // TListaSocios
             // 
-            this.TListaSocios.Location = new System.Drawing.Point(47, 165);
+            this.TListaSocios.Location = new System.Drawing.Point(35, 134);
+            this.TListaSocios.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TListaSocios.Multiline = true;
             this.TListaSocios.Name = "TListaSocios";
             this.TListaSocios.ReadOnly = true;
-            this.TListaSocios.Size = new System.Drawing.Size(933, 311);
+            this.TListaSocios.Size = new System.Drawing.Size(701, 253);
             this.TListaSocios.TabIndex = 0;
             // 
             // TTelefonoo
             // 
-            this.TTelefonoo.Location = new System.Drawing.Point(807, 30);
+            this.TTelefonoo.Location = new System.Drawing.Point(605, 24);
+            this.TTelefonoo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TTelefonoo.Name = "TTelefonoo";
-            this.TTelefonoo.Size = new System.Drawing.Size(173, 22);
+            this.TTelefonoo.Size = new System.Drawing.Size(131, 20);
             this.TTelefonoo.TabIndex = 1;
             // 
             // TNombre
             // 
-            this.TNombre.Location = new System.Drawing.Point(135, 30);
+            this.TNombre.Location = new System.Drawing.Point(101, 24);
+            this.TNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TNombre.Name = "TNombre";
-            this.TNombre.Size = new System.Drawing.Size(173, 22);
+            this.TNombre.Size = new System.Drawing.Size(131, 20);
             this.TNombre.TabIndex = 2;
             // 
             // TApeellidos
             // 
-            this.TApeellidos.Location = new System.Drawing.Point(453, 30);
+            this.TApeellidos.Location = new System.Drawing.Point(340, 24);
+            this.TApeellidos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TApeellidos.Name = "TApeellidos";
-            this.TApeellidos.Size = new System.Drawing.Size(173, 22);
+            this.TApeellidos.Size = new System.Drawing.Size(131, 20);
             this.TApeellidos.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(682, 33);
+            this.label1.Location = new System.Drawing.Point(512, 27);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 16);
+            this.label1.Size = new System.Drawing.Size(32, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Teléfono";
+            this.label1.Text = "Móvil";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(343, 33);
+            this.label2.Location = new System.Drawing.Point(257, 27);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 16);
+            this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "Apellidos";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(44, 33);
+            this.label3.Location = new System.Drawing.Point(33, 27);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 16);
+            this.label3.Size = new System.Drawing.Size(44, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "Nombre";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -101,26 +109,28 @@ namespace WindowsFormsApp1
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(44, 127);
+            this.label4.Location = new System.Drawing.Point(33, 103);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 16);
+            this.label4.Size = new System.Drawing.Size(64, 13);
             this.label4.TabIndex = 7;
             this.label4.Text = "Lista Socios";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(849, 97);
+            this.button1.Location = new System.Drawing.Point(637, 79);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(131, 46);
+            this.button1.Size = new System.Drawing.Size(98, 37);
             this.button1.TabIndex = 8;
             this.button1.Text = "Guardar";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -130,7 +140,6 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.TNombre);
             this.Controls.Add(this.TTelefonoo);
             this.Controls.Add(this.TListaSocios);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
